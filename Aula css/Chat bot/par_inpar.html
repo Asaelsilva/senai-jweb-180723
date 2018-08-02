@@ -1,0 +1,39 @@
+<DOCTYPE html>
+<html>
+        <head>
+            <meta charset="utf-8"/>
+            <script>
+                 let numUsuario;
+                 let numPC;
+                 let resultado;
+                 let escolhaPC;
+                 let escolhaUsuario;
+
+                 let confirmacao = confirm("Você quer jogar?");
+                 if (confirmacao) {
+                    alert ("Beleza, vamos lá!");
+                    do {
+                        escolhaUsuario = prompt("Escolha: Par ou Impar");
+                        if (escolhaUsuario != "Par" && escolhaUsuario != "Impar");{
+                             alert("Por favor, escolher Par ou Impar");
+                             }
+                      }  while (escolhaUsuario != "Par" && escolhaUsuario != "Impar");
+
+                      do{
+                          numUsuario = Number (prompt("Digite um numero entre 0 e 10"));
+                      } while ( numUsuario < 0 || numUsuario > 10);
+                    
+                 } else {
+                     alert("Fica pra proxima.")
+                 }
+            </script>    
+
+        </head>
+
+        <body>
+        <body/>
+
+
+</html>
+
+  /*   console.log(escolhaUsuario );  */

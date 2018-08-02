@@ -48,4 +48,67 @@ body {
     height: 60px;
     background: #b1c1be;
     border-radius: 50%;
+    overflow: hidden;
+}
+
+.chat .user-photo img {
+    width: 100%;
+}
+
+.chat .chat-message {
+    width: 80%;
+    padding: 15px;
+    margin: 5px 10px 0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.friend .chat-message {
+    background: #1adda4;
+}
+
+.self .chat-message{
+    background: #1ddced;
+    order: -1;
+}
+
+.chat-from {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.chat-form textarea {
+    background: #fbfbfb;
+    width: 75%;
+    height: 50px;
+    border: 2px solid #eee;
+    border-radius: 3px;
+    resize: none;
+    padding: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.chat-form textarea:focus {
+    background: #FFF;
+}
+
+.chat-form button {
+    background-color: #1DDCED;
+    padding: 5px 15px;
+    font-size: 30px;
+    color: #FFF;
+    border: none;
+    margin: 0 10px;
+    border-radius: 3px;
+    box-shadow: 0 3px 0 #0EB2C1;
+    cursor:pointer;
+}
+
+.chat-form button:hover {
+    background: #d6dde7;
+    -webkit-transition: background 2s ease;
+    -moz-transition: background 2s ease;
 }
